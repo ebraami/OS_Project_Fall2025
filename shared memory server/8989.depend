@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1765138426 source:c:\users\elatty\desktop\onee\8989\main.cpp
+	<windows.h>
+	<string>
+	<cstdio>
+

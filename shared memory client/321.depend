@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1765140791 source:c:\users\elatty\desktop\onee\321\main.cpp
+	<windows.h>
+	<string>
+	<vector>
+
