@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowTitle">
+   <string>Chat 1 Client</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+
+    <item>
+     <widget class="QLineEdit" name="ipInput">
+      <property name="placeholderText">
+       <string>Server IP</string>
+      </property>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QLineEdit" name="portInput">
+      <property name="placeholderText">
+       <string>Port</string>
+      </property>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QLineEdit" name="usernameInput">
+      <property name="placeholderText">
+       <string>Username</string>
+      </property>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QPushButton" name="connectButton">
+      <property name="text">
+       <string>Connect</string>
+      </property>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QLabel" name="statusLabel">
+      <property name="text">
+       <string>Status: Disconnected</string>
+      </property>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QTextEdit" name="chatView">
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QLineEdit" name="messageInput">
+      <property name="placeholderText">
+       <string>Type message...</string>
+      </property>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QPushButton" name="sendButton">
+      <property name="text">
+       <string>Send</string>
+      </property>
+     </widget>
+    </item>
+
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
