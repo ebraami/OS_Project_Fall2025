@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Chat 2 - Shared Memory</string>
+  </property>
+
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+
+    <!-- Process Selector -->
+    <item>
+     <widget class="QComboBox" name="processSelect">
+      <item>
+       <property name="text">
+        <string>Process A</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Process B</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+
+    <!-- Chat View -->
+    <item>
+     <widget class="QTextEdit" name="chatView">
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Message Input -->
+    <item>
+     <widget class="QLineEdit" name="inputLine">
+      <property name="placeholderText">
+       <string>Type your message...</string>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Send Button -->
+    <item>
+     <widget class="QPushButton" name="sendButton">
+      <property name="text">
+       <string>Send</string>
+      </property>
+     </widget>
+    </item>
+
+   </layout>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
